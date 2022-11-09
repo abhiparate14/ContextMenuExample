@@ -8,11 +8,10 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
-import com.example.contextmenuexample.databinding.ActivityMainBinding
 import com.example.contextmenuexample.databinding.ContentMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private val contact = arrayOf<String>("Akash","Vikash","John","Rahul","Ajay")
+    private val contact = arrayOf<String>("Abhi","Nirnay","Samarth","Devansh","Jaineel")
     private lateinit var listView: ListView
     private lateinit var binding: ContentMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
